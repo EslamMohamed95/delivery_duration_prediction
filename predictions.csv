@@ -1,0 +1,87 @@
+regression_model,feature_set,scaler_name,RMSE
+Ridge,full dataset,Standard scaler,2053.6985
+DecisionTree,full dataset,Standard scaler,2057.2476687088733
+RandomForest,full dataset,Standard scaler,2048.6751155450784
+XGBoost,full dataset,Standard scaler,2036.2499
+LGBM,full dataset,Standard scaler,2033.4355809987908
+MLP,full dataset,Standard scaler,2037.6232
+Ridge,full dataset,MinMax scaler,2053.963
+DecisionTree,full dataset,MinMax scaler,2057.2476685732177
+RandomForest,full dataset,MinMax scaler,2047.8191978628008
+XGBoost,full dataset,MinMax scaler,2036.5613
+LGBM,full dataset,MinMax scaler,2034.4499976619875
+MLP,full dataset,MinMax scaler,2141.851
+Ridge,full dataset,NotScale,2141.851
+DecisionTree,full dataset,NotScale,2141.851
+RandomForest,full dataset,NotScale,2141.851
+XGBoost,full dataset,NotScale,2141.851
+LGBM,full dataset,NotScale,2141.851
+MLP,full dataset,NotScale,2141.851
+Ridge,selected_features_40,Standard scaler,2054.0044
+DecisionTree,selected_features_40,Standard scaler,2056.5292024696128
+RandomForest,selected_features_40,Standard scaler,2048.307596182076
+XGBoost,selected_features_40,Standard scaler,2035.4534
+LGBM,selected_features_40,Standard scaler,2034.6538984910121
+MLP,selected_features_40,Standard scaler,2036.5104
+Ridge,selected_features_40,MinMax scaler,2054.2773
+DecisionTree,selected_features_40,MinMax scaler,2056.5292023632996
+RandomForest,selected_features_40,MinMax scaler,2047.9437803438589
+XGBoost,selected_features_40,MinMax scaler,2036.347
+LGBM,selected_features_40,MinMax scaler,2035.196536738781
+MLP,selected_features_40,MinMax scaler,2128.75
+Ridge,selected_features_40,NotScale,2128.75
+DecisionTree,selected_features_40,NotScale,2128.75
+RandomForest,selected_features_40,NotScale,2128.75
+XGBoost,selected_features_40,NotScale,2128.75
+LGBM,selected_features_40,NotScale,2128.75
+MLP,selected_features_40,NotScale,2128.75
+Ridge,selected_features_20,Standard scaler,2055.3657
+DecisionTree,selected_features_20,Standard scaler,2054.610311207463
+RandomForest,selected_features_20,Standard scaler,2048.075027904058
+XGBoost,selected_features_20,Standard scaler,2037.6337
+LGBM,selected_features_20,Standard scaler,2036.0233846729805
+MLP,selected_features_20,Standard scaler,2037.2576
+Ridge,selected_features_20,MinMax scaler,2055.653
+DecisionTree,selected_features_20,MinMax scaler,2054.6103112689557
+RandomForest,selected_features_20,MinMax scaler,2048.466626359201
+XGBoost,selected_features_20,MinMax scaler,2037.1251
+LGBM,selected_features_20,MinMax scaler,2035.581516471472
+MLP,selected_features_20,MinMax scaler,2083.242
+Ridge,selected_features_20,NotScale,2083.242
+DecisionTree,selected_features_20,NotScale,2083.242
+RandomForest,selected_features_20,NotScale,2083.242
+XGBoost,selected_features_20,NotScale,2083.242
+LGBM,selected_features_20,NotScale,2083.242
+MLP,selected_features_20,NotScale,2083.242
+Ridge,selected_features_10,Standard scaler,2056.5684
+DecisionTree,selected_features_10,Standard scaler,2054.5971761770547
+RandomForest,selected_features_10,Standard scaler,2051.6289101626094
+XGBoost,selected_features_10,Standard scaler,2040.27
+LGBM,selected_features_10,Standard scaler,2038.1313604554389
+MLP,selected_features_10,Standard scaler,2040.1483
+Ridge,selected_features_10,MinMax scaler,2056.882
+DecisionTree,selected_features_10,MinMax scaler,2054.5971762373274
+RandomForest,selected_features_10,MinMax scaler,2051.876057840962
+XGBoost,selected_features_10,MinMax scaler,2039.6721
+LGBM,selected_features_10,MinMax scaler,2037.6564489201091
+MLP,selected_features_10,MinMax scaler,2067.8162
+Ridge,selected_features_10,NotScale,2067.8162
+DecisionTree,selected_features_10,NotScale,2067.8162
+RandomForest,selected_features_10,NotScale,2067.8162
+XGBoost,selected_features_10,NotScale,2067.8162
+LGBM,selected_features_10,NotScale,2067.8162
+MLP,selected_features_10,NotScale,2067.8162
+Ridge,selected_features_40,Standard scaler,2055.4077
+DecisionTree,selected_features_40,Standard scaler,2063.3402827182467
+RandomForest,selected_features_40,Standard scaler,2053.7706554407882
+XGBoost,selected_features_40,Standard scaler,2037.8203
+LGBM,selected_features_40,Standard scaler,2035.7236370573405
+MLP,selected_features_40,Standard scaler,2039.6897
+LGBM,selected_features_40,Standard scaler,2035.7236370573405
+ANN,selected_features_40,Standard scaler,"(997.9227930766771, array([[2962.2234],
+       [4305.6763],
+       [1952.9637],
+       ...,
+       [2950.2842],
+       [3098.8594],
+       [2197.9763]], dtype=float32))"
